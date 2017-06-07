@@ -9,7 +9,8 @@
 `$ docker build -t username/webappname:latest . `
 
 #### To Start Locally: (interactive)
-`$ docker run -i -p 8080:80 username/webappname:latest` 
+`$ docker run -i -p 8080:80 username/webappname:latest`  
+Then visit `http://localhost:8080/` through your browser
 
 #### To See the running instance:
 `$ docker ps`
