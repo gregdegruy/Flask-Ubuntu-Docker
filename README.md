@@ -15,8 +15,15 @@
 `$ docker ps`
 
 #### To Kill:
-`$ docker kill [thirsty_mayer or container id - found by running docker ps]`  
+`$ docker kill [thirsty_mayer or CONTAINER ID]`  
 
+CONTAINER ID found by running `docker ps`, output for `docker ps` looks like
+
+```sh
+billg@windoughs:~$ docker ps
+CONTAINER ID         IMAGE                         COMMAND             CREATED               STATUS              PORTS                                     NAMES
+1e02f5b4169e         timmyreilly/flaskweb:latest   "python main.py"    About a minute ago    Up About a minute   443/tcp, 8080/tcp, 0.0.0.0:8080->80/tcp   cranky_galileo
+```
 
 #### To Push to Docker:
 
