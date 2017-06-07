@@ -6,7 +6,8 @@
 `$ git clone https://github.com/timmyreilly/Flask-Ubuntu-Docker.git`
 
 #### To Build: 
-`$ docker build -t username/webappname:latest . `
+`$ docker build -t username/webappname:latest`
+In my example I use `$ docker build -t timmyreilly/flaskweb:latest .`
 
 #### To Start Locally: (interactive)
 `$ docker run -i -p 8080:80 username/webappname:latest` 
